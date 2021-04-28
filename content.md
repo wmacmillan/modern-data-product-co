@@ -10,7 +10,7 @@ date: 04/28/2021
 
 <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/aileron" type="text/css"/> -->
 
-![Data Product Elements](./data_product.svg)
+![Data Product Elements](.docs/data_product.svg)
 
 # The Modern Data Product Company
 
