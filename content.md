@@ -4,6 +4,8 @@ author: William MacMillan
 date: 04/28/2021
 ---
 
+<!-- pandoc -s -c aileron.css content.md -o ./docs/index.html -->
+
 <!-- <link rel="stylesheet" type="text/css" media="all" href="custom-style.css" /> -->
 
 <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/aileron" type="text/css"/> -->
