@@ -1,9 +1,85 @@
-<!-- pandoc -s -c aileron.css content.md -o ./docs/index.html -->
-<!-- <link rel="stylesheet" type="text/css" media="all" href="custom-style.css" /> -->
-<!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/aileron" type="text/css"/> -->
-<figure>
-<img src=".docs/data_product.svg" alt="Data Product Elements" /><figcaption>Data Product Elements</figcaption>
-</figure>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="William MacMillan" />
+  <meta name="dcterms.date" content="2021-04-28" />
+  <title>The Modern Data Product</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="aileron.css" />
+</head>
+<body>
+<p><img src="data_product.svg" /></p>
 <h1 id="the-modern-data-product-company">The Modern Data Product Company</h1>
 <!-- - [The Modern Data Product Company](#the-modern-data-product-company) -->
 <ul>
@@ -18,7 +94,6 @@
 <li><a href="#2-data-curation-projects">2. Data Curation Projects</a></li>
 </ul>
 <p>A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:</p>
-<!-- Data → Information → Knowledge → Action → Results -->
 <p>Data <span class="math inline">→</span> Information <span class="math inline">→</span> Knowledge <span class="math inline">→</span> Action <span class="math inline">→</span> Results</p>
 <p>A data product company takes data and transforms the data into information. The information should be presented in such a way that it easily produces knowledge for the user.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> The goal of a data product company is to efficiently move from data to the conditions for knowledge acquition in the user base. For a data product with a subscription fee, users are synonomous with clients.<sup>[N.b. For a firm like Facebook, the user base and client base are not the same. Facebook clients are advitisers, and the users are human chattel.]</sup>[This document will attempt to use the term “client” when referring to applications that run on user-owned hardware.]</p>
 <p>A data product is a combination of three elements:</p>
@@ -28,7 +103,7 @@
 <li>Data Curation</li>
 </ol>
 <p>Data curation<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> carries its own unique status in this case, because data has an abstract value above and beyond the technical details of the systems that store it and the measurement schemes used to create records.</p>
-<h1 id="definitions">1. Definitions</h1>
+<h2 id="definitions">1. Definitions</h2>
 <p>The most critical terms of data product companies are:</p>
 <dl>
 <dt>Business Logic</dt>
@@ -44,7 +119,7 @@
 <dd>utility, with a homomorphism to USD, derived from providing goods or services that ameliorate the human condition. A data product must provide value to clients, which is captured by the business as revenue and, ideally, profit.
 </dd>
 </dl>
-<h2 id="roles">1.1. Roles</h2>
+<h3 id="roles">1.1. Roles</h3>
 <dl>
 <dt>Data Owner</dt>
 <dd>accountable for data quality and fitness.
@@ -69,7 +144,7 @@
 </dd>
 </dl>
 <div class="sourceCode" id="cb1"><pre class="sourceCode cpp"><code class="sourceCode cpp"><a class="sourceLine" id="cb1-1" title="1"><span class="co">//</span><span class="al">TODO</span><span class="co">: add roles for infrastructure, software engineering, project management, other things.</span></a></code></pre></div>
-<h2 id="data-terms">1.2. Data terms</h2>
+<h3 id="data-terms">1.2. Data terms</h3>
 <dl>
 <dt>Datum</dt>
 <dd>a quantified record.
@@ -108,7 +183,7 @@
 <dd>when a dataset is available for query by a production system.
 </dd>
 </dl>
-<h2 id="storage-architectures">1.3. Storage Architectures</h2>
+<h3 id="storage-architectures">1.3. Storage Architectures</h3>
 <dl>
 <dt>Storage</dt>
 <dd>refers to both the abstract and tangible elements of storing records. The type of storage is defined by the business case and logic.
@@ -129,7 +204,7 @@
 <dd>a loosly consolidated, federated, or completely heterogenous collection of records accessible via multiple retreival mechanisms. A form of “Cold” or “Lukewarm” storage.
 </dd>
 </dl>
-<h2 id="types-of-storage">1.4. Types of storage</h2>
+<h3 id="types-of-storage">1.4. Types of storage</h3>
 <dl>
 <dt>Hot Storage</dt>
 <dd>queries return data in human-scale time durations. Typically under five seconds.
@@ -141,7 +216,7 @@
 <dd>where final copies for later audit are stored. Last stop before deletion in a data lifecycle.
 </dd>
 </dl>
-<h2 id="data-processing">1.5. Data Processing</h2>
+<h3 id="data-processing">1.5. Data Processing</h3>
 <dl>
 <dt>Ingest</dt>
 <dd>all technical and business processes up to, but not including, analytics for a business purpose.
@@ -156,7 +231,7 @@
 <dd>both the conditions under and the mechanism for a registered data capture event.
 </dd>
 </dl>
-<h1 id="data-curation-projects">2. Data Curation Projects</h1>
+<h2 id="data-curation-projects">2. Data Curation Projects</h2>
 <ul>
 <li>Identification
 <ul>
@@ -187,7 +262,6 @@
 <li>data owner confirms the status of data and publication mechanisms</li>
 </ul></li>
 </ul>
-<p>&lt;</p>
 <section class="footnotes">
 <hr />
 <ol>
@@ -196,3 +270,5 @@
 <li id="fn3"><p>This nomenclature is to be avoided if the data product is using text documents, as you have two senses of the word “extract” in that case. In an ETL, you are capturing the data by “extracting” it from the data store where you initally find it. With NLP work, you also need to “extract” the text from a document for processing. In the latter case, this occurs during pre-processing.<a href="#fnref3" class="footnote-back">↩</a></p></li>
 </ol>
 </section>
+</body>
+</html>
