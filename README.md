@@ -5,6 +5,16 @@
 
 ![Data Product Elements](./data_product.svg)
 
+<!-- TOC -->
+- [Definitions](#definitions)
+    - [1. Roles](#1-roles)
+    - [2. Data terms](#2-data-terms)
+    - [3. Storage Architectures](#3-storage-architectures)
+    - [4. Types of storage](#4-types-of-storage)
+    - [5. Data Processing](#5-data-processing)
+- [Data Curation Projects](#data-curation-projects)
+<!-- /TOC -->
+
 # The Modern Data Product Company
 
 A data product company is a firm that provides a service to clients by easing the process of going from data to knowledge which informs actions. Data is the first element in a five step sequence to value known as the DIKAR model:
@@ -17,13 +27,13 @@ A data product is a combination of three elements:
 
 1. Data Processing
 2. User Interface
-3. Data Curation<sup id="a1">[4](#f1)</sup>
+3. Data Curation
 
-Data curation carries its own unique status in this case, because data has an abstract value above and beyond the technical details of the systems that store it and the measurement schemes used to create records.
+Data curation<sup id="a1">[4](#f1)</sup> carries its own unique status in this case, because data has an abstract value above and beyond the technical details of the systems that store it and the measurement schemes used to create records.
 
-# Definitions
+## Definitions
 
-The single most critical terms of data product companies are:
+The most critical terms of data product companies are:
 
 Business Logic
 :  the technical elements of a system that provide unique value to users and/or customers.
@@ -37,7 +47,7 @@ Business Case
 Value
 : utility, with a homomorphism to USD, derived from providing goods or services that ameliorate the human condition. A data product must provide value to clients, which is captured by the business as revenue and, ideally, profit.
 
-## Roles
+### 1. Roles
 
 Data Owner
 : accountable for data quality and fitness.
@@ -64,7 +74,7 @@ DevOps Engineer
 //TODO: add roles for infrastructure, software engineering, project management, other things.
 ```
 
-## Data terms
+### 2. Data terms
 
 Datum
 : a quantified record. 
@@ -96,7 +106,7 @@ Data set status
 Publication
 : when a dataset is available for query by a production system.
 
-## Storage Architectures
+### 3. Storage Architectures
 
 Storage
 : refers to both the abstract and tangible elements of storing records. The type of storage is defined by the business case and logic.
@@ -116,7 +126,7 @@ Data warehouse
 Data Lake
 : a loosly consolidated, federated, or completely heterogenous collection of records accessible via multiple retreival mechanisms. A form of "Cold" or "Lukewarm" storage.
 
-## Types of storage
+### 4. Types of storage
 
 Hot Storage
 : queries return data in human-scale time durations. Typically under five seconds.
@@ -127,7 +137,7 @@ Cold Storage (alternate adjective Lukewarm)
 Deep Freeze storage
 : where final copies for later audit are stored. Last stop before deletion in a data lifecycle.
 
-## Data Processing
+### 5. Data Processing
 
 Data Ingest
 : all technical and business processes up to, but not including, analytics for a business purpose.
@@ -143,7 +153,7 @@ Data Transformation(s)
 Trigger
 : both the conditions under and the mechanism for a registered data capture event.
 
-# Data Curation Projects
+## Data Curation Projects
 
 - Identification
     - data owner confirms choice(s) of data set (or content sets, generally)
