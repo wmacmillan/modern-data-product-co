@@ -40,7 +40,7 @@ Business Logic
 :  the technical elements of a system that provide unique value to users and/or customers.
 
 Business Purpose
-: specific processes by which the business logic is utilized for value creation.
+: specific processes for value creation.
 
 Business Case
 : a seperable domain of one or more business purposes which define value for clients.
