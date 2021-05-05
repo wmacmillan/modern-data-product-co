@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "The Modern Data Product"
+permalink: https://wmacmillan.github.io/modern-data-product-co/
 # mainfont: aileron
 ---
 
